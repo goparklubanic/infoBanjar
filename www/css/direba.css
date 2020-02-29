@@ -13,14 +13,14 @@
     align-items: center;
 } */
 .menu-box {
-    width: 100px; height: 130px; border: 1px solid #c7c7c7;
+    width: 140px; height: 170px; border: 1px solid #c7c7c7;
     margin:5px auto; text-align: center; 
     background-image:linear-gradient( whitesmoke, lightgrey );
     box-sizing: border-box; border: 1px solid #dddddd;
 }
 
 .menu-box > img.menu-image {  
-    height: 99px; width: 98px; margin: 0px; box-sizing: border-box;
+    height: 139px; width: 138px; margin: 0px; box-sizing: border-box;
 }
 
 .menu-title { 

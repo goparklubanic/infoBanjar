@@ -33,7 +33,7 @@ $( document ).ready( function(){
             `);
         });
 
-        $(".menu-holder").append(`
+        $("#menu-holder").append(`
         <div class='menu-box'>
         <img src='./img/beranda-layananumum.png' class='menu-image'>
         <div class='menu-title' onClick=goto('dir-pubsvc.html')><p>Public Services</p></div>
