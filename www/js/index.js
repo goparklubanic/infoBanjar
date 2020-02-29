@@ -2,14 +2,6 @@ let menu = [
     {'nama':'Berita','gambar':"beranda-berita.png","link":"dir-berita.html"},
     {'nama':'Kalender Event','gambar':"beranda-agenda.png","link":"dir-agenda.html"}
 ];
-/*
-    {'nama':'Destinasi Wisata','gambar':"beranda-wisata.png","link":"dir-wisata.html"},
-    {'nama':'Hotel','gambar':"beranda-hotel.png","link":"dir-wisata.html"},
-    {'nama':'Homestay','gambar':"beranda-homestay.png","link":"dir-wisata.html"},
-    {'nama':'Tempat Belanja','gambar':"beranda-belanja.png","link":"dir-belanja.html"},
-    {'nama':'Sentra Kuliner','gambar':"beranda-kuliner.png","link":"dir-kuliner.html"},
-    {'nama':'Public Sevices','gambar':"beranda-layananumum.png","link":"dir-pubsvc.html"}
-*/
 
 let ikone = {
 "Objek Wisata"      :"beranda-wisata.png",
@@ -21,9 +13,9 @@ let ikone = {
 
 
 $( document ).ready( function(){
-    $(".menu-holder div").remove();
+    $("#menu-holder div").remove();
     $.each(menu , function(i,data){
-        $(".menu-holder").append(`
+        $("#menu-holder").append(`
         <div class='menu-box'>
           <img src='./img/${data.gambar}' class='menu-image'>
           <div class='menu-title' onClick = goto('${data.link}')><p>${data.nama}</p></div>
@@ -33,7 +25,7 @@ $( document ).ready( function(){
 
     $.getJSON(urlservice + 'beranda', function(kats){
         $.each(kats, function(i,data){
-            $(".menu-holder").append(`
+            $("#menu-holder").append(`
             <div class='menu-box'>
             <img src='./img/${ikone[data.namaKategori]}' class='menu-image'>
             <div class='menu-title' onClick=gokat(${data.idKategori})><p>${data.namaKategori}</p></div>

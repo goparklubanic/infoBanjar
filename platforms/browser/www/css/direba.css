@@ -5,20 +5,22 @@
 
 .top-head > h3 { font-size: 24px; font-weight: bold;}
 
-.menu-holder {
+/* .menu-holder {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+    flex: auto;
+    align-items: center;
+} */
 .menu-box {
-    width: 170px; height: 200px; border: 1px solid #c7c7c7;
-    margin:15px auto; text-align: center; 
+    width: 100px; height: 130px; border: 1px solid #c7c7c7;
+    margin:5px auto; text-align: center; 
     background-image:linear-gradient( whitesmoke, lightgrey );
     box-sizing: border-box; border: 1px solid #dddddd;
 }
 
 .menu-box > img.menu-image {  
-    height: 169px; width: 168px; margin: 0px; box-sizing: border-box;
+    height: 99px; width: 98px; margin: 0px; box-sizing: border-box;
 }
 
 .menu-title { 

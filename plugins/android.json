@@ -10,7 +10,7 @@
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "id.web.klubaners.direbara"
     },
-    "cordova-plugin-media-capture": {
+    "cordova-plugin-camera": {
       "PACKAGE_NAME": "id.web.klubaners.direbara"
     },
     "cordova-plugin-device": {
@@ -28,10 +28,16 @@
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "id.web.klubaners.direbara"
     },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "id.web.klubaners.direbara"
+    },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "id.web.klubaners.direbara"
     },
     "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "id.web.klubaners.direbara"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "id.web.klubaners.direbara"
     }
   },
