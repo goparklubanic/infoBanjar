@@ -25,17 +25,20 @@
       "cordova-plugin-globalization": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-vibration": {}
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-whitelist": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
   },
   "dependencies": {
+    "cordova-browser": "^6.0.0",
     "cordova-common": "^3.2.1",
     "cordova-plugin-compat": "^1.2.0"
   },
   "repository": {
-  "type" : "git"
+    "type": "git"
   }
 }
